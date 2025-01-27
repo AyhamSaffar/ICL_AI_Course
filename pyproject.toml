@@ -3,17 +3,19 @@ name = "mlformaterials"
 version = "1.0.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = "==3.9.*"
 dependencies = [
+    "elementembeddings>=0.6.1",
+    "httpx>=0.28.1",
     "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
     "matminer>=0.9.3",
-    "matplotlib>=3.10.0",
-    "monty>=2025.1.9",
-    "numpy>=2.2.2",
+    "matplotlib>=3.9.4",
+    "nbformat>=5.10.4",
+    "numpy>=2.0.2",
+    "optimade>=1.1.5",
     "pandas>=2.2.3",
-    "pymatgen>=2025.1.9",
-    "scikit-learn>=1.6.1",
-    "scipy>=1.15.1",
-    "seaborn>=0.13.2",
-    "tqdm>=4.67.1",
+    "plotly>=5.24.1",
+    "pymatviz>=0.8.3",
+    "rich>=13.9.4",
 ]
