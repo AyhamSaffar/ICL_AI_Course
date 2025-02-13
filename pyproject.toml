@@ -19,6 +19,7 @@ dependencies = [
     "rich>=13.9.4",
     "scikit-image>=0.25.1",
     "scikit-learn>=1.6.1",
+    "scikit-optimize>=0.10.2",
     "seaborn>=0.13.2",
     "smact>=2.5.5",
     "torchvision>=0.21.0",
